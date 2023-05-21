@@ -1,4 +1,4 @@
-# gpt4-tokenizer-visualizer
+# GPT4 Tokenizer Visualizer
 
 Like https://platform.openai.com/tokenizer but for GPT4
 
