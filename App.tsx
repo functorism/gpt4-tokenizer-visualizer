@@ -87,7 +87,7 @@ export default function App() {
           toks.map(([, t]) => t),
           null,
           2
-        )}
+        ).replaceAll('\n', ' ')}
       </pre>
     </div>
   );
