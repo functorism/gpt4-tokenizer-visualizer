@@ -20,7 +20,7 @@ function numberToColor(number) {
   const hue = ((pseudorandom * goldenRatioConjugate) % 1) * 360;
 
   // Allow saturation to vary between 60% and 100%.
-  const s = 60 + (pseudorandom % 41);
+  const s = 60 + (pseudorandom % 21);
 
   // Allow lightness to vary between 70% and 90%.
   const l = 70 + (pseudorandom % 21);
