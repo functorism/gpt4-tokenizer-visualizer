@@ -19,8 +19,8 @@ function numberToColor(number) {
   // Compute a hue value using the golden angle.
   const hue = ((pseudorandom * goldenRatioConjugate) % 1) * 360;
 
-  // Allow saturation to vary between 30% and 60%.
-  const s = 30 + (pseudorandom % 31);
+  // Allow saturation to vary between 60% and 100%.
+  const s = 60 + (pseudorandom % 41);
 
   // Allow lightness to vary between 70% and 90%.
   const l = 70 + (pseudorandom % 21);
